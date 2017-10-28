@@ -1,0 +1,35 @@
+name: Drupal 8 Custom Theme
+type: theme
+description: 'Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:support@zymphonies.com>support@zymphonies.com</a>'
+package: core
+# core: 8.x
+
+#Libraries
+libraries:
+  - drupal8_custom_theme/bootstrap
+  - drupal8_custom_theme/flexslider
+  - drupal8_custom_theme/global-components
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  highlighted: 'Highlighted' 
+  page_title: 'Page Title'
+  breadcrumb: 'Breadcrumb'
+  search: 'Search'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'  
+  bottom_first: 'Bottom First Widget'
+  bottom_second: 'Bottom Second Widget'
+  bottom_third: 'Bottom Third Widget'
+  bottom_forth: 'Bottom Forth Widget'
+  footer_menu: 'Footer Menu'
+  google_map: 'Google Map'
+  auto_hidden_block: 'Auto hidden blocks'
+# Information added by Drupal.org packaging script on 2016-08-04
+version: '8.x-1.0'
+core: '8.x'
+project: 'drupal8_custom_theme'
+datestamp: 1470322231
